@@ -1,0 +1,38 @@
+## Readings: What is a Computer?
+
+## Reading, Research, and Discussion
+
+### How is a hardware hack different than a software hack?
+-A hardware hack and a software hack are two distinct approaches to exploiting or manipulating computer systems or electronic devices. 
+They differ in their methods, targets, and consequences.
+
+#### What are the two ways for spies to alter a computer’s hardware?
+There are two ways for spies to alter the guts of computer equipment. One, known as interdiction, consists of manipulating devices as they’re in transit from manufacturer to customer. 
+This approach is favored by U.S. spy agencies, according to documents leaked by former National Security Agency contractor Edward Snowden. The other method involves seeding changes from the very beginning.
+
+
+##information found on Chatgpt 
+-Hardware Implants: Hardware implants involve the physical modification of a computer or its components to introduce malicious hardware devices or modifications. 
+These implants are typically small and discreet and can be installed inside the computer or its peripherals. 
+Common hardware implants include: Keyloggers, Hardware Trojans, Hardware Backdoors, Network Interface Cards (NIC) Alteration, Firmware Modifications
+
+-Supply Chain Attacks: Instead of modifying the hardware directly, spies can also manipulate the hardware during the supply chain process. This can involve infiltrating the manufacturing, 
+shipping, or distribution processes to introduce malicious components or modify existing hardware. Supply chain attacks can be very difficult to detect and may affect a large number of systems simultaneously.
+These methods can be challenging to detect and defend against because they often require physical access to the target system or a sophisticated understanding of hardware design and manufacturing processes. 
+Countermeasures against such attacks include robust supply chain security practices, regular hardware integrity checks, and advanced security monitoring to detect unusual hardware behavior or modifications.
+
+
+##Explain how the hack worked.
+-Investigators found that the chips had been inserted at factories run by manufacturing subcontractors in China.U.S. investigators found: The chips had been inserted during the manufacturing process, 
+two officials say, by operatives from a unit of the People’s Liberation Army. 
+
+-Nested on the servers’ motherboards, the testers found a tiny microchip, not much bigger than a grain of rice, that wasn’t part of the boards’ original design. Amazon reported the discovery to U.S. authorities, 
+sending a shudder through the intelligence community. Elemental’s servers could be found in Department of Defense data centers, the CIA’s drone operations, and the onboard networks of Navy warships. 
+And Elemental was just one of hundreds of Supermicro customers.
+
+
+
+
+##How were investigators able to trace the chips back to the source?
+investigators found that the chips had been inserted at factories run by manufacturing subcontractors in China. This was an third party /Amazon was unware un-athourized chihps being implated in devices.
+  
