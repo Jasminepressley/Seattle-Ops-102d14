@@ -1,0 +1,79 @@
+Reading
+
+
+1.Explain the terms “shell”, “terminal”, “cli”, and “command prompt”. Why are these still used today, when we have graphical interfaces?
+
+"Shell":The term "shell" in the context of computing typically refers to a command-line interface or a user interface for interacting with an operating system. 
+        Shells are programs that provide a text-based way for users to issue commands to the operating system and receive responses. 
+        They are commonly found in Unix-like operating systems, including Linux, and are also available in Windows.
+"Terminal" 
+
+"Cli":"CLI" stands for Command Line Interface. It is a text-based interface used for interacting with computer programs and systems. 
+      In a CLI, the user issues commands by typing them as text, and the system or program responds with text output. 
+      This is in contrast to a Graphical User Interface (GUI), which uses visual elements like windows, icons, and buttons for user interaction.
+
+"Command prompt":A "command prompt" refers to a textual interface provided by an operating system or software application that allows users to enter and execute commands. 
+      This term is commonly associated with Microsoft Windows, where the command prompt is known as the "Command Prompt" or "CMD."
+
+These are still used today because when we have graphical interfaces....
+      
+"Shell," "terminal," "CLI" (Command Line Interface), and "command prompt" are all related terms in the context of computing and represent the command-line aspect of an operating system.  
+These concepts are still widely used today, alongside graphical interfaces, for several reasons:
+
+Shell:
+A shell is a program that provides an interface for users to interact with the operating system. It takes user commands and translates them into system calls.
+Shells can be both command-line (text-based) or graphical (GUI-based). Common command-line shells include Bash (Unix-like systems), PowerShell (Windows), and many others.
+Shells offer scripting capabilities, allowing users to automate tasks and create custom scripts to perform complex operations.
+
+Terminal:
+A terminal is a text-based interface to interact with the shell. It's a program that emulates a physical terminal or console, providing a way to enter commands and receive text output.
+Users typically launch a terminal application to access the command-line interface provided by the shell. The terminal displays text-based feedback from the shell.
+CLI (Command Line Interface):
+A CLI is a means of interacting with a computer or software through text-based commands. Users input commands, and the system responds with text output.
+CLIs are efficient for many tasks, particularly those involving file manipulation, system administration, and software development. They can be faster and more precise than graphical interfaces for these purposes.
+
+Command Prompt:
+"Command Prompt" is a specific term associated with Windows operating systems. It refers to the command-line interface provided by the Windows Command Prompt or PowerShell.
+In Unix-like systems (e.g., Linux, macOS), the equivalent term for the command-line interface is often called a "shell."
+Why these are still used alongside graphical interfaces:
+
+Efficiency and Precision: CLIs are often faster and more precise for experienced users. Power users, developers, and system administrators can perform tasks more efficiently through text-based commands.
+Scripting and Automation: CLIs are scriptable, allowing users to create scripts and automate repetitive tasks. This is particularly valuable for system administration and development.
+Resource Efficiency: CLIs are lightweight, requiring fewer system resources compared to graphical interfaces. This can be essential in resource-constrained environments or for remote server management.
+Remote Access: CLIs can be accessed remotely over SSH or other protocols, making them essential for managing remote servers or devices.
+Accessibility: For visually impaired users, CLIs can be more accessible and screen-reader-friendly than graphical interfaces.
+Compatibility: Many systems and applications provide command-line interfaces for compatibility and automation. This ensures that various tools can work together seamlessly.
+
+
+2. What are the commands to change directories, list the file’s contents and rename/move files?
+      Commands to change directories are: pwd 
+      This is its working directory. If you try to create new files or directories, view existing files, or even delete them, the shell will assume you’re looking for them in the current working directory unless 
+      you take steps to specify otherwise.
+      You can change the working directory using the cd command, an abbreviation for ‘change directory’. Try typing the following: cd / pwd
+      
+
+
+
+3.What are relative and absolute paths? 
+
+Relative paths:
+        A relative path, specifies the location of a file or directory in relation to the current working directory. 
+        It doesn't start from the root of the file system but instead describes how to navigate to the target file or directory from the current location. 
+        Relative paths are typically shorter and more concise.
+Absolute paths:
+        An absolute path provides the complete location of a file or directory from the root of the file system. It includes all the directories and subdirectories needed to reach the target file or directory.
+        Any path that starts with a forward slash is an absolute path. 
+
+4.What is special about starting with a ~ (tilde) or a ‘/’ character in the path?
+      Using “/” at the start of your path means “starting from the root directory”. Using the tilde character (”~”) at the start of your path similarly means “starting from my home" 
+
+5.Explain what Linux is, using anything except English.
+Linux using ASCII art: _       _             _
+| |     | |           | |
+| |     | |_   _  ___| |_   _  ___  ____  ____ 
+| |     | | | | |/ _ \ | | | |/ _ \|    \|  __)
+| |____ | | |_| |  __/ | | |_| | | | | | | |
+|______)|_|\__  |\___)_|\_|\__  |_|_|_|_|_|
+           (____/       (____/       
+
+
