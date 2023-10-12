@@ -1,0 +1,48 @@
+Jasmine Pressley 
+October 12,2023
+
+(CLASS READ 09)
+
+Readings: Command Line Interface
+
+Below you will find some reading materials and videos that support today’s topic and the upcoming lecture.
+
+
+1.What is the Command Prompt?
+Command Prompt is a command line interpreter application available in most Windows operating systems. It's used to execute entered commands. 
+Most of those commands automate tasks via scripts and batch files, perform advanced administrative functions, and troubleshoot or solve certain kinds of Windows issues.
+
+2.How do I access the Command Prompt?
+There are several ways to open Command Prompt, but the "normal" method is via the Command Prompt shortcut located in the Start menu or on the Apps screen, depending on your version of Windows.
+
+To use Command Prompt, you enter a valid Command Prompt command along with any optional parameters. 
+Command Prompt then executes the command as entered and performs the task or function it's designed to perform in Windows.
+
+For example, executing the following Command Prompt command in your Downloads folder would remove all MP3s from that folder:  del *.mp3
+Commands must be entered into Command Prompt exactly. The wrong syntax or a misspelling could cause the command to fail or worse; 
+it could execute the wrong command or the right command in the wrong way. A comfort level with reading command syntax is recommended.
+
+
+3.What are some of the most commonly used commands?
+There are lots and lots of commands you can use in Command Prompt, but not all of them are used as often as others.
+Here are some of the more commonly used Command Prompt commands that are utilized in a variety of circumstances: 
+chkdsk, copy, ftp, del, format, ping, attrib, net, dir, help, and shutdown.
+
+ 
+4.What is Windows Power Shell?
+Windows PowerShell is a command-line shell and scripting language developed by Microsoft. 
+It is designed for system administrators and power users to automate tasks and manage system configurations in the Windows operating system. 
+PowerShell provides a more powerful and flexible alternative to the traditional Windows Command Prompt.
+
+
+5.What is Windows Terminal?
+Windows Terminal is a modern, open-source, and highly customizable command-line terminal application developed by Microsoft. 
+It is designed to be a versatile and user-friendly interface for command-line tools, shells, and other command-line applications in the Windows operating system. 
+Windows Terminal is part of Microsoft's ongoing efforts to improve the command-line experience for developers, system administrators, and power users.
+
+
+
+
+Reaources:
+https://www.lifewire.com/command-prompt-2625840
+https://chat.openai.com/c/619c637d-65a5-4277-a7e0-7a167c3e6ff4
