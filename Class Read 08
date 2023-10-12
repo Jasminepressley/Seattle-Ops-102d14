@@ -1,0 +1,136 @@
+Jasmine Pressley
+October 12, 2020
+
+
+Readings: Virtualization of Windows OS
+
+Below you will find some reading materials and videos that support today’s topic and the upcoming lecture.
+
+Reading
+What is an ISO file?: Only read sections 1.1 - 1.4 inclusively.
+
+1.What is an ISO File?
+  An ISO file, often called an ISO image, is a single file that's a perfect representation of an entire CD, DVD, or BD. 
+  The entire contents of a disc can be precisely duplicated in a single ISO file.
+  
+2.How do you write an ISO file to a CD, DVD, or removable media (like a thumb drive)?
+The most common way to make use of an ISO file is to burn it to a CD, DVD, or BD disc. 
+This is a different process than burning music or document files to a disc because your CD/DVD/BD burning software must "assemble" the contents of the ISO file onto the disc.
+Windows 11, 10, 8, and 7 can all burn ISO images to a disc without using any third-party software—just double-tap or double-click the ISO file and then follow the wizard that appears.
+
+ STEP BY STEP instructions:
+ Writing an ISO File to a CD or DVD:
+
+Insert a blank CD/DVD: Make sure you have a writable CD or DVD and insert it into your computer's optical drive.
+Use Burning Software: You'll need burning software to write the ISO to the disc. 
+There are many free and paid options available, such as Nero, ImgBurn, CDBurnerXP, and built-in tools on Windows and macOS.
+Open the Burning Software: Launch the burning software and look for an option that allows you to burn an image or ISO file to a disc. This option might be labeled differently depending on the software you're using.
+Select the ISO File: Browse for the ISO file you want to write to the disc and select it.
+Burn the ISO: Follow the software's instructions to initiate the burning process. This will create a bootable CD/DVD with the contents of the ISO file.
+Finalize the Disc: Once the burning process is complete, the software will typically ask if you want to finalize the disc. Finalizing makes it readable in other devices, so it's usually a good idea to do this.
+Writing an ISO File to a USB Thumb Drive:
+
+Insert the USB Drive: Plug in the USB thumb drive into an available USB port on your computer. 
+Ensure there's enough space on the drive for the ISO file.
+Download a USB Writing Tool: You'll need a tool to write the ISO to the USB drive. One commonly used tool is Rufus for Windows, and for macOS and Linux, you can use the "dd" command in the terminal.
+Open the USB Writing Tool: Launch the USB writing tool you've chosen.
+Select the ISO File: Within the tool, there should be an option to select the ISO file you want to write to the USB drive.
+Choose the USB Drive: Select the USB drive you want to write the ISO to. Make sure to choose the correct drive to avoid overwriting data on another drive.
+Start the Process: Click the "Start" or "Write" button within the tool to initiate the process. Depending on the tool, it may take a few minutes to write the ISO to the USB drive.
+Eject Safely: Once the process is complete, safely eject the USB drive from your computer.
+
+
+3.How do you create an ISO file?
+Several programs, many of them free, let you create your own ISO file from a disc or a collection of files you've chosen.
+The most common reason to build an ISO image is if you're interested in backing up a software installation disc or even a DVD or Blu-ray movie.
+
+  In detail instructions:
+Creating an ISO from a CD/DVD:
+  
+-If you have a physical CD or DVD that you want to back up into an ISO file, 
+you can use software like ImgBurn (Windows), Brasero (Linux), or Disk Utility (macOS). 
+
+Here are general steps:
+
+-Install and open the CD/DVD burning software.
+Select the "Create image from disc" or similar option.
+Choose the source CD/DVD drive.
+Set the destination path and filename for the ISO file.
+Start the process, and the software will create the ISO image.
+  
+Creating an ISO from Files and Folders:
+-If you have a collection of files and folders that you want to bundle into an ISO image, you can use built-in or third-party tools. 
+
+Here's a common method using Windows:
+  
+-Select the files and folders you want to include.
+Right-click and choose "Send to" > "Compressed (zipped) folder" to create a ZIP file.
+  
+Rename the ZIP file to have the .iso file extension.
+  
+Note: This creates a basic ISO file that may not be bootable. If you need a bootable ISO, you may need specialized software.
+  
+Creating a Bootable ISO:
+To create a bootable ISO, you can use software like Rufus (Windows), UNetbootin (cross-platform), or the dd command (Linux). 
+The specific steps may vary depending on your software, but the general process involves selecting an ISO image, specifying a bootable device (e.g., a USB drive), and creating the ISO.
+
+Creating an ISO from a Disk Image:
+If you have a disk image file in a format like IMG, you can convert it to an ISO using tools like PowerISO, MagicISO, or hdiutil (macOS). 
+Typically, these tools provide options to convert between different disk image formats, including ISO.
+
+Creating an ISO from a CD/DVD on Linux:
+On Linux, you can use the dd command to create an ISO from a CD/DVD. 
+
+
+4.How do you mount an ISO file?
+Mounting an ISO file that you've created or downloaded from the internet is sort of like tricking your computer into thinking that the ISO file is a real disc. 
+This way, you can "use" an ISO file just like it was on a real CD or DVD, only you didn't have to waste a disc, or your time burning one. 
+
+Mounting an ISO file involves making the contents of the ISO file accessible as if it were a physical CD/DVD drive. 
+This can be useful for installing software, running programs, or accessing data from the ISO without the need for physical media. 
+The exact steps can vary depending on your operating system. Here's how to do it on different platforms:
+
+Windows:
+-Using Windows Explorer:
+
+Locate the ISO file you want to mount.
+Right-click on the ISO file.
+Choose "Mount" from the context menu.
+The contents of the ISO will be accessible as a virtual drive in Windows Explorer.
+
+Using Third-Party Software:
+If you have third-party software like Virtual CloneDrive, Daemon Tools, or WinCDEmu, you can right-click on the ISO file and use their options to mount it.
+
+
+macOS:
+Using Disk Utility:
+Open "Disk Utility," which is located in the "Utilities" folder within the "Applications" folder.
+From the "File" menu, select "Open Disk Image..."
+Locate and select the ISO file you want to mount.
+Click the "Open" button, and the ISO will appear as a mounted volume on your desktop.
+
+
+Linux:
+Linux usually doesn't require additional software for mounting ISO files, as the ability to do so is built into the operating system. 
+Here are the steps:
+
+
+Mounting from the Command Line:
+Open a terminal and use the mount command with the loop device:
+
+code:
+(sudo mount -o loop /path/to/your.iso /mnt/your_mount_point)
+Replace /path/to/your.iso with the path to your ISO file and /mnt/your_mount_point with the directory where you want to mount the ISO.
+
+Unmounting the ISO:
+To unmount the ISO, use the umount command:
+
+code:
+(sudo umount /mnt/your_mount_points)
+
+Replace /mnt/your_mount_point with the actual mount point you used.
+
+
+RESOURES:
+https://www.lifewire.com/iso-file-2625923#toc-how-to-mount-iso-files
+Chatgpt 
