@@ -1,0 +1,69 @@
+Jasmine Pressley 
+October 12,2023
+
+CLASS READ #07
+
+Readings: Network Connectivity
+Below you will find some reading materials and videos that support today’s topic and the upcoming lecture.
+
+Reading
+SSH Protocol
+
+1. What is the Secure Shell (SSH) Protocol?
+The SSH protocol (also referred to as Secure Shell) is a method for secure remote login from one computer to another. It provides several alternative options for strong authentication, 
+and it protects communications security and integrity with strong encryption. 
+It is a secure alternative to the non-protected login protocols (such as telnet, rlogin) and insecure file transfer methods (such as FTP).
+
+2. What are the typical uses of the SSH protocol?
+-Providing secure access for users and automated processes
+-Interactive and automated file transfers
+-Issuing remote commands
+-Managing network infrastructure and other mission-critical system components.
+
+
+3.How does the SSH protocol work?
+The protocol works in the client-server model, which means that the connection is established by the SSH client connecting to the SSH server. 
+The SSH client drives the connection setup process and uses public key cryptography to verify the identity of the SSH server. 
+After the setup phase the SSH protocol uses strong symmetric encryption and hashing algorithms to ensure the privacy and integrity of the data that is exchanged between the client and server.
+
+4.How is the data kept safe when transmitted between the SSH client and server?
+Once a connection has been established between the SSH client and server, the data that is transmitted is encrypted according to the parameters negotiated in the setup. 
+During the negotiation the client and server agree on the symmetric encryption algorithm to be used and generate the encryption key that will be used. 
+The traffic between the communicating parties is protected with industry standard strong encryption algorithms (such as AES (Advanced Encryption Standard)), 
+and the SSH protocol also includes a mechanism that ensures the integrity of the transmitted data by using standard hash algorithms (such as SHA-2 (Standard Hashing Algorithm))
+
+5.What is SFTP?
+SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.
+
+SFTP has pretty much replaced legacy FTP as a file transfer protocol, and is quickly replacing FTP/S. It provides all the functionality offered by these protocols, but more securely and more reliably, 
+with easier configuration. There is basically no reason to use the legacy protocols any more. SFTP also protects against password sniffing and man-in-the-middle attacks. 
+It protects the integrity of the data using encryption and cryptographic hash functions, and autenticates both the server and the user.
+
+1.What is RDP?
+-The Remote Desktop Protocol allows remote users to see and use Windows on a device in another location. Key peripherals like your keyboard and mouse are shared with the remote machine, 
+allowing you to use and control it as if you were sat right in front of it.
+And how to use it?
+-For RDP connections to work, you need two components—an RDP server and an RDP client. A typical RDP server is the Windows PC or server you’re connecting to and will control. 
+The client is a PC or mobile device with an RDP client app installed, from which you control the server. Microsoft offers its own client for Windows, macOS, Android, and iOS, 
+with various third-party options available for Linux and other platforms.
+-RDP is a Windows-only protocol, and you can only establish remote connections using RDP with Windows PCs and Windows Server installations that support it. Not all versions of Windows do—Windows 10 Home, for instance, 
+can only be used as a client to connect to other Windows Remote Desktops, not the other way around.
+You can only establish a single connection to Windows PCs that have remote desktop enabled. To connect multiple users at once, you’ll need a Windows server with the Remote Desktop Services (RDS) component installed and enabled.
+-If you want to establish RDP connections to a secure enterprise network from a remote location, you’ll also need the Remote Desktop Gateway service installed and configured on a suitable Windows Server installation. 
+This also offers increased security, replacing the need for an internal virtual private network (VPN).
+
+
+2.What is Windows Remote Desktop Connection?
+-Windows Remote Desktop Connection, often simply referred to as Remote Desktop or RDC, is a feature in the Microsoft Windows operating system that allows you to remotely access and control another Windows computer or server over a network or the internet. 
+It is a built-in tool in Windows that provides a graphical user interface (GUI) for remote desktop protocol (RDP) technology.
+
+
+What is the RDP port number?
+-The default port number for Remote Desktop Protocol (RDP) is 3389. RDP is a proprietary protocol developed by Microsoft for remote access to Windows-based systems, and it uses this port for communication. However, 
+it's worth noting that you can configure RDP to use a different port if necessary for security reasons or to avoid conflicts with other services. In such cases, you would need to specify the custom port number when connecting to the remote system.
+
+
+RESOURCES:
+https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol
+https://www.comparitech.com/net-admin/what-is-rdp/
+ChatGPT
