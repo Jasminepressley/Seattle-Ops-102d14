@@ -1,0 +1,75 @@
+Jasmine Pressley
+October 13,2023
+  
+Class Read 02 
+
+Readings: Build a Computer
+
+Below you will find some reading materials and videos that support today’s topic and the upcoming lecture.
+
+1.Which is better in a CPU, more cores or higher speed? Under which circumstances is that true? How many CPU cores does a computer need?
+The choice between more cores or higher clock speed (frequency) in a CPU depends on the specific tasks and applications you plan to run on your computer.
+There's no one-size-fits-all answer, as the ideal CPU configuration varies based on your needs. Here are some factors to consider:
+
+  -Multi-Core CPUs: More cores are beneficial for tasks that can be parallelized or split into multiple threads. 
+This includes many modern software applications, such as video editing, 3D rendering, scientific simulations, 
+and some video games. With more cores, each core can handle a separate task, making these operations faster. 
+In such cases, a multi-core CPU can provide a significant performance boost.
+
+-Clock Speed: Higher clock speed is advantageous for tasks that are single-threaded or lightly threaded.
+Many older applications and some video games are not optimized to take full advantage of multiple cores. 
+In these cases, a CPU with a higher clock speed can offer better performance because it can execute a single thread faster.  
+
+2.What details are you looking for when finding a motherboard which fits your processor?
+-When choosing a motherboard for your processor, it's important to ensure compatibility and consider other factors to meet your specific needs. 
+Here are the details to look for when finding a motherboard that fits your processor:
+-Socket Compatibility, Chipset Compatibility, Form Factor, Memory Support, Expansion Slots, Storage Connectivity, I/O Ports and Connectors, Overclocking Support,
+Network and Audio Features, VRM and Power Delivery, BIOS/UEFI Updates, Brand and Model, Price and Features  
+
+
+3.What are the tradeoffs you’d evaluate while selecting a storage device?
+-When selecting a storage device, there are several tradeoffs to consider based on your specific needs and use cases. 
+These tradeoffs typically involve factors such as speed, capacity, reliability, form factor, and cost. Here are the key tradeoffs to evaluate:
+Storage Capacity, Speed and Performance, Reliability and Durability, Form Factor and Physical Size, Noise and Heat, Power ConsumptionPower Consumption
+Cost, Endurance (for SSDs), Data Type and Usage, Redundancy and Backup
+
+
+Think about others with a background similar to yours. How would you explain to them the key parts of a computer, 
+in a way they’d best connect with?
+
+-If I were to explain to someone with a similar background of mines the key parts of a computer I woud break-down these key componets:
+Motherboard. The motherboard is the computer's main circuit board. ...
+
+CPU/processor:
+  The central processing unit (CPU), also called a processor, is located inside the computer case on the motherboard. 
+  It is sometimes called the brain of the computer, and its job is to carry out commands.
+  
+RAM: 
+  (Random Access Memory) RAM is your system's short-term memory. Whenever your computer performs calculations, it temporarily stores the data in the RAM until it is needed
+  
+Hard drive:
+  The hard drive is where your software, documents, and other files are stored. 
+  The hard drive is long-term storage, which means the data is still saved even if you turn the computer off or unplug it.
+  
+Power supply unit:
+  The power supply unit in a computer converts the power from the wall outlet to the type of power needed by the computer. 
+  It sends power through cables to the motherboard and other components.
+  
+Video card:
+  The video card is responsible for what you see on the monitor. Most computers have a GPU (graphics processing unit) built into the motherboard instead of having a separate video card. 
+  If you like playing graphics-intensive games, you can add a faster video card to one of the expansion slots to get better performance.
+
+Network card:The network card allows your computer to communicate over a network and access the Internet. It can either connect with an Ethernet cable or through a wireless connection (often called Wi-Fi).
+  Many motherboards have built-in network connections, and a network card can also be added to an expansion slot.
+
+Bluetooth card (or adapter):Bluetooth is a technology for wireless communication over short distances. It's often used in computers to communicate with wireless keyboards, mice, and printers. 
+  It's commonly built into the motherboard or included in a wireless network card. 
+
+
+  
+RESOURCES:
+ChatGPT
+Google
+Wikipedia 
+Infographic - pcbuildadvisor.com - How to build a computer
+https://edu.gcfglobal.org/en/computerbasics/inside-a-computer/1/#
